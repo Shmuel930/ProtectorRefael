@@ -14,6 +14,7 @@ html {
     -webkit-user-select: none;
     -ms-user-select:none;
     -moz-user-select: none;
+
     -ms-text-size-adjust:none;
     user-select:none;
     height: 100%;
