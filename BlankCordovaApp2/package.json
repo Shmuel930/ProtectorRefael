@@ -1,0 +1,19 @@
+{
+    "name": "BlankCordovaApp2",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "cordova-plugin-whitelist": "1",
+        "cordova-plugin-inappbrowser": "1.5.0",
+        "cordova-plugin-ms-azure-mobile-apps": "2.0.0",
+        "cordova-sqlite-storage": "1.4.8"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-inappbrowser": {},
+            "cordova-plugin-ms-azure-mobile-apps": {},
+            "cordova-sqlite-storage": {}
+        }
+    }
+}
