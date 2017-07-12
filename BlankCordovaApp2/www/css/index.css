@@ -4,8 +4,8 @@ body {
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size:cover;
-    overflow:hidden;
     position:fixed;
+    height:100%;
 }
 
 html {
@@ -18,6 +18,7 @@ html {
     user-select:none;
     height: 100%;
     width: 100%;
+    -webkit-tap-highlight-color:transparent;
 }
 
 .image {
@@ -37,40 +38,38 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
-input[type="text"]{
-    box-sizing:border-box;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
 
-}
 th{
     text-align:center;
     font:bold;
     padding: 2%;
 }
-thead{
+
+.thead{
     display: inline-block;
-    width: 100%;
     height: 20px;
     padding-bottom:2%;
     border-bottom: 1px solid #ddd;
 }
-tbody{
-    height:600px;
-    width: 100%;
+
+.tbody{
     display:block;
+    height:600px;
     overflow-y: scroll;
     overflow-x: hidden;
 }
+
 tr{
     text-align:left;
     padding:2%;
 }
+
 td{
     text-align:left;
     padding: 3%;
     border-bottom: 1px solid #ddd;
 }
+
 .tdcenter{
     padding: 2%;
     vertical-align:middle;
@@ -82,18 +81,15 @@ td{
 footer{
     bottom:2%; 
     display: block; 
-    position:fixed;
+    position:relative;
     left:40%;
-    -webkit-tap-highlight-color:transparent;
 }
-
 
 .switch {
   position: relative;
   display: inline-block;
   width: 60px;
   height: 34px;
-  -webkit-tap-highlight-color:transparent;
 }
 
 /* Hide default HTML checkbox */
